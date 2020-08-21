@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif, arial;
+    z-index: 1;
+    box-sizing: border-box;
+
+}
+.sect1{
+    background-image: url(../img/food3-4198040.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.title{
+    font-family: fantasy;
+    color: rgb(49, 2, 49) !important;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+#list{
+    color: rgb(35, 84, 90) !important;
+    font-family: sans-serif;
+}
+.firstext{
+    opacity: rgba(255, 255, 255, 0.925);
+    margin-top: 4rem;
+    color: rgb(35, 84, 90) !important;
+}
+#buton{
+    background-color: rgb(238, 95, 12);
+    color: #ffffff;
+    padding: 1rem;
+    box-shadow: 8px 8px 6px rgb(248, 181, 143) ;
+    border: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+.opaq{
+    color: #000;
+}
+.over{
+    width:100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(231, 213, 173, 0.445);
+    z-index: 1;
+
+}
+#greens{
+    margin-top: 5rem;
+    color: rgb(35, 84, 90) !important;
+    font-weight: bolder;
+}
+p{
+    color: #000;
+}
+.lays{
+    background-image: url(../img/foodo-974229.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        
+}
+.overt{
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(243, 233, 223, 0.904);
+    z-index: 1;
+
+}
+.sect3{
+    background-image: url(../img/soup03.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+    background-position: center;
+}
+#fades{
+    background-color: rgba(0, 0, 0, 0.658);
+    width:100% ;
+    top: 0;
+    left: 0;
+    border-radius: 2rem;
+}
+.text{
+    padding-top: 7rem;
+}
+.texter{
+    color: #ffffff;
+}
+.iconplay{
+    font-size: 40px;
+    margin-bottom: 5rem;
+    color: #ffffff;
+}
+.explore{
+    color:rgb(35, 84, 90) ;
+    font-family: sans-serif;
+
+}
+.cards{
+    padding-top: 2rem;
+    border: none;
+    
+}
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+    
+#uton{
+    background-color: rgb(238, 95, 12);
+    color: #ffffff;
+    padding: 1rem;
+    box-shadow: 8px 8px 6px rgb(248, 181, 143) ;
+    border: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    
+}
+.icon{
+    font-size: 40px;
+    margin-bottom: 5rem;
+    color:rgb(238, 95, 12);
+    text-shadow: 3px 3px  rgb(243, 92, 4);
+}
+.down{
+    text-align: center;
+}
+.footer{
+    text-decoration: none;
+}
+.inline{
+    display: inline;
+    margin-left: 2rem;
+}
