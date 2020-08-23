@@ -4,7 +4,6 @@ body{
     font-family: sans-serif, arial;
     z-index: 1;
     box-sizing: border-box;
-
 }
 .sect1{
     background-image: url(../img/food3-4198040.jpeg);
@@ -79,7 +78,7 @@ p{
     background-position: center;
 }
 #fades{
-    background-color: rgba(0, 0, 0, 0.658);
+    background-color: rgba(11, 10, 17, 0.705);
     width:100% ;
     top: 0;
     left: 0;
@@ -128,15 +127,53 @@ p{
     font-size: 40px;
     margin-bottom: 5rem;
     color:rgb(238, 95, 12);
-    text-shadow: 3px 3px  rgb(243, 92, 4);
 }
 .down{
     text-align: center;
 }
-.footer{
-    text-decoration: none;
-}
 .inline{
     display: inline;
-    margin-left: 2rem;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+.footer{
+    color:rgb(35, 84, 90) !important
+}
+.footer a:hover{
+    color:rgb(238, 95, 12) ;
+}
+.iconsa a:hover{
+    color:rgb(35, 84, 90) ;
+
+}
+.copy{
+    color: rgb(13, 135, 235);
+    font-weight: lighter;
+}
+.background{
+    background-image:linear-gradient(to right, rgba(248, 237, 215, 0.973) ,rgba(0, 0, 0, 0.089)),url(../img/pexels-photo-315755.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(248, 236, 212, 0.959);
+}
+#ton{
+    background-color: rgb(238, 95, 12);
+    color: #ffffff;
+    box-shadow: 6px 4px 6px rgb(248, 181, 143) ;
+    border: none;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+#ton:hover{
+    color: #000;
+    background-color:#0f0;
+    box-shadow: 6px 4px 6px #0f0;
+}
+.rightimg{
+    top: 2rem;
+}
+.leftimg{
+    top: 6rem;
 }
