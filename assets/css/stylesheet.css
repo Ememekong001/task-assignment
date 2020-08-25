@@ -1,6 +1,6 @@
 body{
-    padding: 0;
-    margin:0;
+    padding: 0 !important;
+    margin:0 !important;
     font-family: sans-serif, arial;
     z-index: 1;
     box-sizing: border-box;
@@ -35,9 +35,6 @@ body{
     padding-right: 2rem;
     margin-top: 2rem;
     margin-right: 3rem;
-}
-.opaq{
-    color: #000;
 }
 .over{
     width:100%;
@@ -121,15 +118,11 @@ p{
     padding-right: 2rem;
     margin-top: 2rem;
     margin-right: 3rem;
-    
-}
-.icon{
-    font-size: 40px;
-    color:rgb(238, 95, 12);
-
 }
 .down{
     text-align: center;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 .inline{
     display: inline;
@@ -147,7 +140,7 @@ p{
 
 }
 .copy{
-    color: rgb(13, 135, 235);
+    color: #000;
     font-weight: lighter;
 }
 .background{
@@ -161,10 +154,12 @@ p{
     color: #ffffff;
     box-shadow: 6px 4px 6px rgb(248, 181, 143) ;
     border: none;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-right: 3rem;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    padding: 1rem;
+    border: none;
 }
 #ton:hover{
     color: #000;
